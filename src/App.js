@@ -4,7 +4,7 @@ import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
 
-  const DYMMY_EXPENSES =[
+  const DUMMY_EXPENSES =[
       {
     id: 'id1',
     date: new Date (2024, 10, 22),
@@ -32,7 +32,7 @@ import NewExpense from './components/NewExpense/NewExpense';
 ]
 
 const App = ()=>{
-  const [expenses,setExpenses] = useState(DYMMY_EXPENSES)
+  const [expenses,setExpenses] = useState(DUMMY_EXPENSES)
 
 const addExpenseHandler = (expense) => {
   setExpenses((previousExpenses) =>{
